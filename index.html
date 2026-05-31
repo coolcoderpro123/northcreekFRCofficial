@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRC Team 9999: Venturi Effect | North Creek High School</title>
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Official website of FRC Team 9999: Venturi Effect. Competitive high school robotics team from North Creek High School, Bothell/Seattle, WA. Join us in engineering, physics, and tech leadership.">
+    <!-- Google Fonts: Inter (Body) & Orbitron (Headers) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome 6 CDN for modern icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="light-only">
+    <!-- Glowing Cybernetic Grid Overlay for Premium Aesthetics -->
+    <div class="cyber-grid"></div>
+
+    <!-- Sticky Navigation Bar -->
+    <header class="sticky-header" id="main-header">
+        <div class="nav-container">
+            <a href="#/home" class="logo-link">
+                <img src="assets/logo.png" alt="Venturi Effect Logo" class="nav-logo">
+                <div class="logo-text">
+                    <span class="team-number">9999</span>
+                    <span class="team-name">Venturi Effect</span>
+                </div>
+            </a>
+
+            <!-- Mobile Hamburger Menu Button -->
+            <button class="menu-toggle" id="menu-toggle-btn" aria-label="Toggle Menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="nav-menu-container">
+                <ul class="nav-list">
+                    <li><a href="#/home" class="nav-item active-nav" id="nav-home">Home</a></li>
+                    <!-- About Us Dropdown Menu -->
+                    <li class="nav-dropdown">
+                        <a href="#/about" class="nav-item nav-dropdown-trigger" id="nav-about">
+                            About Us <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#/about" class="dropdown-item">Our Team</a></li>
+                            <li><a href="#/history" class="dropdown-item">Competition History</a></li>
+                            <li><a href="#/leadership" class="dropdown-item">Leadership</a></li>
+                            <li><a href="#/outreach" class="dropdown-item">Outreach</a></li>
+                            <li><a href="#/fundraising" class="dropdown-item">Fundraising</a></li>
+                            <li><a href="#/boosters" class="dropdown-item">Boosters</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#/sponsors" class="nav-item" id="nav-sponsors">Sponsors</a></li>
+                    <li><a href="#/first" class="nav-item" id="nav-first">About FIRST®</a></li>
+                    <li><a href="#/resources" class="nav-item" id="nav-resources">Resources</a></li>
+                    <li><a href="#/calendar" class="nav-item" id="nav-calendar">Calendar</a></li>
+                    <li><a href="#/blog" class="nav-item" id="nav-blog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container (SPA Views) -->
+    <main class="content-wrapper" id="main-content">
+
+        <!-- 1. HOMEPAGE VIEW -->
+        <section class="page-view active" id="view-home">
+            <!-- Hero Banner -->
+            <div class="hero-section">
+                <div class="hero-glow"></div>
+                <div class="hero-content">
+                    <img src="assets/logo.png" alt="Venturi Effect Logo" class="hero-logo-large">
+                    <h1 class="hero-title"><span class="neon-purple">FRC Team</span> <span class="neon-green">9999</span></h1>
+                    <h2 class="hero-subtitle">VENTURI EFFECT</h2>
+                    <p class="hero-meta">North Creek High School &bull; Seattle, WA</p>
+                    <div class="hero-cta-buttons">
+                        <a href="#/about" class="btn btn-primary">Discover Our Team</a>
+                        <a href="#/sponsors" class="btn btn-secondary">Sponsor Venturi Effect</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard Style Split Layout for Modern Look -->
+            <div class="grid-container container">
+                <!-- Main Body Column -->
+                <div class="main-column">
+                    <!-- Meet the Team -->
+                    <div class="card glass-card relative-card">
+                        <div class="card-glow green-glow"></div>
+                        <h3 class="section-title"><i class="fa-solid fa-users text-green"></i> Meet the Team</h3>
+                        <p class="lead-text">
+                            Founded in 2018 at North Creek High School, FRC Team 9999: Venturi Effect is a dedicated student-led robotics community. 
+                            We cultivate future leaders in engineering, business, and software design through hands-on fabrication and advanced programming.
+                            Built upon our founding ideals of active community engagement, intensive personal development, and competitive fun, we empower students to transform physics principles into operational mechanics.
+                        </p>
+                    </div>
+
+                    <!-- Core Values Section -->
+                    <div class="card glass-card relative-card">
+                        <div class="card-glow purple-glow"></div>
+                        <h3 class="section-title text-purple"><i class="fa-solid fa-gem"></i> Core Values</h3>
+                        <p class="small-desc">These foundational pillars guide our team culture, our behavior in the arena, and our development as future professionals.</p>
+                        <div class="values-badges-grid">
+                            <div class="value-badge">
+                                <div class="value-icon"><i class="fa-solid fa-hands-holding-child"></i></div>
+                                <span class="value-name">Camaraderie</span>
+                            </div>
+                            <div class="value-badge">
+                                <div class="value-icon"><i class="fa-solid fa-comments"></i></div>
+                                <span class="value-name">Communication</span>
+                            </div>
+                            <div class="value-badge">
+                                <div class="value-icon"><i class="fa-solid fa-compass"></i></div>
+                                <span class="value-name">Discovery</span>
+                            </div>
+                            <div class="value-badge">
+                                <div class="value-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                                <span class="value-name">Integrity</span>
+                            </div>
+                            <div class="value-badge">
+                                <div class="value-icon"><i class="fa-solid fa-award"></i></div>
+                                <span class="value-name">Quality</span>
+                            </div>
+                            <div class="value-badge">
+                                <div class="value-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                                <span class="value-name">Respect</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar Column -->
+                <aside class="sidebar-column">
+                    <!-- Donate CTA Widget -->
+                    <div class="card glass-card donate-card text-center relative-card">
+                        <div class="card-glow green-glow"></div>
+                        <h3 class="card-title"><i class="fa-solid fa-heart-pulse text-green"></i> Support FRC 9999</h3>
+                        <p class="small-text">Help fund our competitive season, student travel, and community outreach operations.</p>
+                        
+                        <!-- Stylish SVG QR Code Placeholder -->
+                        <div class="qr-code-box">
+                            <svg class="qr-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100" height="100" fill="none" rx="8"/>
+                                <!-- Top-Left Corner Anchor -->
+                                <rect x="10" y="10" width="20" height="20" fill="none" stroke="#00FF66" stroke-width="4"/>
+                                <rect x="15" y="15" width="10" height="10" fill="#00FF66"/>
+                                <!-- Top-Right Corner Anchor -->
+                                <rect x="70" y="10" width="20" height="20" fill="none" stroke="#00FF66" stroke-width="4"/>
+                                <rect x="75" y="15" width="10" height="10" fill="#00FF66"/>
+                                <!-- Bottom-Left Corner Anchor -->
+                                <rect x="10" y="70" width="20" height="20" fill="none" stroke="#00FF66" stroke-width="4"/>
+                                <rect x="15" y="75" width="10" height="10" fill="#00FF66"/>
+                                <!-- Simulated Matrix Dots (Purple and green cyber pattern) -->
+                                <rect x="38" y="12" width="6" height="6" fill="#A855F7" rx="1"/>
+                                <rect x="50" y="20" width="8" height="4" fill="#00FF66" rx="1"/>
+                                <rect x="38" y="38" width="24" height="24" fill="none" stroke="#A855F7" stroke-width="3" rx="2"/>
+                                <rect x="46" y="46" width="8" height="8" fill="#00FF66" rx="1"/>
+                                <rect x="15" y="42" width="12" height="6" fill="#A855F7" rx="1"/>
+                                <rect x="74" y="45" width="8" height="18" fill="#A855F7" rx="1"/>
+                                <rect x="45" y="72" width="16" height="10" fill="#00FF66" rx="1"/>
+                                <rect x="72" y="72" width="14" height="14" fill="#00FF66" rx="1"/>
+                            </svg>
+                            <span class="qr-text">DEMO DONATE QR CODE</span>
+                        </div>
+
+                        <a href="https://www.paypal.com" target="_blank" class="btn btn-primary btn-block"><i class="fa-solid fa-qrcode"></i> Scan or Click to Donate!</a>
+                    </div>
+
+                    <!-- Support Us Navigation Sidebar -->
+                    <div class="card glass-card relative-card">
+                        <div class="card-glow purple-glow"></div>
+                        <h4 class="card-title text-purple"><i class="fa-solid fa-circle-info"></i> Support Pathways</h4>
+                        <ul class="sidebar-links">
+                            <li><a href="#/fundraising" class="sidebar-link"><i class="fa-solid fa-arrow-trend-up"></i> Dynamic Fundraising Info</a></li>
+                            <li><a href="#/sponsors" class="sidebar-link"><i class="fa-solid fa-award"></i> View Sponsor Tiers</a></li>
+                            <li><a href="#/boosters" class="sidebar-link"><i class="fa-solid fa-rocket"></i> Parent & Booster Clubs</a></li>
+                        </ul>
+                    </div>
+
+
+                </aside>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT US - TEAM DETAIL VIEW -->
+        <section class="page-view" id="view-about">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">About</span> <span class="neon-green">Our Team</span></h1>
+                    <p class="subtitle">Empower physical engineering and technology leadership since 2018</p>
+                </div>
+
+                <div class="card glass-card mb-5 relative-card">
+                    <div class="card-glow green-glow"></div>
+                    <div class="two-column-flex">
+                        <div class="flex-text">
+                            <h3 class="section-title text-green"><i class="fa-solid fa-clock-rotate-left"></i> Our Rich History</h3>
+                            <p class="paragraph">
+                                FRC Team 9999 was formed in 2018 by five pioneering students and two faculty mentors in a small storage locker behind the physics laboratory. 
+                                Operating with borrowed hand tools and a minuscule budget, the original team designed a wood-framed robot that surprised the regional competition, earning the "Highest Rookie Seed" award.
+                            </p>
+                            <p class="paragraph">
+                                Over the last several years, the team has expanded to over 40 active students, supported by professional engineering mentors, parents, and school administrators. 
+                                Today, we work inside a dedicated technology workshop, utilising 3D printing, laser cutters, and CNC machinery to craft professional-grade robotics. 
+                                Despite our technological expansion, we preserve our early founding principles: welcoming any student regardless of prior knowledge and operating as a tight-knit family.
+                            </p>
+                        </div>
+                        <div class="flex-image-box">
+                            <!-- High-Fidelity CSS Graphic Placeholder representing Venturi Effect -->
+                            <div class="graphic-placeholder-box border-purple-glow">
+                                <div class="placeholder-icon-box text-purple"><i class="fa-solid fa-wind"></i></div>
+                                <span class="placeholder-label">Venturi Effect Team Portrait Block</span>
+                                <span class="placeholder-sublabel">North Creek Engineering Lab - Bothell, WA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- 3. COMPETITION HISTORY VIEW -->
+        <section class="page-view" id="view-history">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">Competition</span> <span class="neon-green">History</span></h1>
+                    <p class="subtitle">Our track record of competitive drive and design honors</p>
+                </div>
+
+                <div class="card glass-card relative-card">
+                    <div class="card-glow green-glow"></div>
+                    <h3 class="section-title text-green"><i class="fa-solid fa-trophy"></i> Results & Major Awards</h3>
+                    <p class="paragraph">We strive for engineering excellence and gracious professionalism on the field. Here is our competition record since our inaugural year:</p>
+                    
+                    <div class="responsive-table-wrapper">
+                        <table class="premium-table">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Event</th>
+                                    <th>Rank / Record</th>
+                                    <th>Alliance Status</th>
+                                    <th>Awards Won</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="glow-row">
+                                    <td>2025</td>
+                                    <td>Pacific Northwest District Championship</td>
+                                    <td>Rank 8 (12-5-0)</td>
+                                    <td>Alliance 3 Captain</td>
+                                    <td><span class="award-pill"><i class="fa-solid fa-trophy text-green"></i> Excellence in Engineering Award</span></td>
+                                </tr>
+                                <tr>
+                                    <td>2025</td>
+                                    <td>PNW District Auburn Event</td>
+                                    <td>Rank 2 (14-3-0)</td>
+                                    <td>Event Winner (Alliance 1)</td>
+                                    <td><span class="award-pill"><i class="fa-solid fa-trophy text-green"></i> District Event Winner</span><br><span class="award-pill"><i class="fa-solid fa-crown text-purple"></i> Autonomous Award</span></td>
+                                </tr>
+                                <tr class="glow-row">
+                                    <td>2024</td>
+                                    <td>FIRST World Championship - Newton Division</td>
+                                    <td>Rank 15 (8-6-0)</td>
+                                    <td>Alliance 5 Selection 1</td>
+                                    <td><span class="award-pill"><i class="fa-solid fa-bolt text-green"></i> Industrial Design Award</span></td>
+                                </tr>
+                                <tr>
+                                    <td>2024</td>
+                                    <td>PNW District Sammamish Event</td>
+                                    <td>Rank 4 (11-6-0)</td>
+                                    <td>Event Finalist (Alliance 2)</td>
+                                    <td><span class="award-pill"><i class="fa-solid fa-heart text-purple"></i> Gracious Professionalism Award</span></td>
+                                </tr>
+                                <tr>
+                                    <td>2023</td>
+                                    <td>PNW District Glacier Peak Event</td>
+                                    <td>Rank 12 (9-8-0)</td>
+                                    <td>Alliance 6 Captain</td>
+                                    <td><span class="award-pill"><i class="fa-solid fa-compass text-green"></i> Creativity Award</span></td>
+                                </tr>
+                                <tr class="glow-row">
+                                    <td>2018</td>
+                                    <td>PNW District West Valley Event</td>
+                                    <td>Rank 7 (10-7-0)</td>
+                                    <td>Alliance 4 Selection 2</td>
+                                    <td><span class="award-pill"><i class="fa-solid fa-seedling text-purple"></i> Highest Rookie Seed</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. LEADERSHIP & TEAM MEMBERS VIEW -->
+        <section class="page-view" id="view-leadership">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">Leadership</span> <span class="neon-green">Structure</span></h1>
+                    <p class="subtitle">The driving forces guiding our mechanical, software, and administrative operations</p>
+                </div>
+
+                <div class="leadership-section mb-5">
+                    <h2 class="section-heading text-green mb-4"><i class="fa-solid fa-graduation-cap"></i> Student Directors</h2>
+                    <div class="profile-grid" id="student-leaders-grid">
+                        <!-- Injected dynamically by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="leadership-section">
+                    <h2 class="section-heading text-purple mb-4"><i class="fa-solid fa-user-tie"></i> Team Leads</h2>
+                    <div class="profile-grid" id="mentors-grid">
+                        <!-- Injected dynamically by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. OUTREACH VIEW -->
+        <section class="page-view" id="view-outreach">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">Outreach</span> <span class="neon-green">Campaigns</span></h1>
+                    <p class="subtitle">Spreading STEM passion and technological literacy through our community</p>
+                </div>
+
+                <div class="card glass-card mb-5 relative-card">
+                    <div class="card-glow purple-glow"></div>
+                    <div class="two-column-flex">
+                        <div class="flex-image-box">
+                            <!-- High-Fidelity CSS Graphic Placeholder representing Outreach -->
+                            <div class="graphic-placeholder-box border-green-glow">
+                                <div class="placeholder-icon-box text-green"><i class="fa-solid fa-seedling"></i></div>
+                                <span class="placeholder-label">Bothell STEM Outreach Clinic</span>
+                                <span class="placeholder-sublabel">Summer Immersion Clinic</span>
+                            </div>
+                        </div>
+                        <div class="flex-text">
+                            <h3 class="section-title text-purple"><i class="fa-solid fa-cubes"></i> Venturi STEM Summer Camp</h3>
+                            <p class="paragraph">
+                                Every July, FRC Team 9999 hosts a two-week STEM immersion camp for middle school students in our school district. 
+                                Led entirely by senior high school students, the campers discover mechanical assembly using LEGO Mindstorms, and explore basic software logic using Python.
+                            </p>
+                            <p class="paragraph">
+                                Our mission is to make technology education highly accessible. Over 60% of our attendees receive full camp scholarships funded directly by our Gold sponsors, ensuring cost is never a barrier to starting a STEM journey.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two-column-grid mb-5">
+                    <div class="card glass-card relative-card">
+                        <div class="card-glow green-glow"></div>
+                        <h4 class="card-title text-green"><i class="fa-solid fa-school"></i> Elementary Demonstration Visits</h4>
+                        <p>We visit four local elementary schools every spring to demonstrate our competition robot. Students interact with the mechanics, operate the intake controls, and learn about elementary kinetic principles from our software team.</p>
+                    </div>
+                    <div class="card glass-card relative-card">
+                        <div class="card-glow purple-glow"></div>
+                        <h4 class="card-title text-purple"><i class="fa-solid fa-recycle"></i> E-Waste Recycling Initiative</h4>
+                        <p>To promote environmental stewardship alongside engineering, our team organizes bi-monthly community e-waste collection drives. We have safely recycled over 15,000 lbs of toxic hardware since starting in 2021.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. FUNDRAISING VIEW -->
+        <section class="page-view" id="view-fundraising">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">Fundraising</span> & <span class="neon-green">Operations</span></h1>
+                    <p class="subtitle">Fueling competitive innovation through robust support</p>
+                </div>
+
+                <div class="two-column-grid mb-5">
+                    <!-- Dynamic Progress Card -->
+                    <div class="card glass-card relative-card">
+                        <div class="card-glow green-glow"></div>
+                        <h3 class="card-title text-green"><i class="fa-solid fa-chart-line"></i> 2025-26 Budget Progress</h3>
+                        <p>Our operational costs encompass robot manufacturing materials, championship registration entries, workshop safety equipment, and travel fees.</p>
+                        
+                        <div class="fundraiser-meter-box mt-4">
+                            <div class="meter-labels">
+                                <span class="meter-raised text-green">$26,450 Raised</span>
+                                <span class="meter-goal text-slate-800">Goal: $30,000</span>
+                            </div>
+                            <div class="meter-bar-outer">
+                                <div class="meter-bar-inner" style="width: 88%;"></div>
+                            </div>
+                            <p class="meter-text mt-3">We have successfully secured <span class="text-green font-bold">88%</span> of our seasonal budget! Help us reach the finish line to secure our transit to the upcoming tournaments.</p>
+                        </div>
+                    </div>
+
+                    <!-- Allocation Cost Sheet -->
+                    <div class="card glass-card relative-card">
+                        <div class="card-glow purple-glow"></div>
+                        <h3 class="card-title text-purple"><i class="fa-solid fa-receipt"></i> Budget Allocation</h3>
+                        <ul class="allocation-list">
+                            <li>
+                                <span class="alloc-name"><i class="fa-solid fa-microchip"></i> Robot Parts & Metal Fabrication</span>
+                                <span class="alloc-val">$8,500</span>
+                            </li>
+                            <li>
+                                <span class="alloc-name"><i class="fa-solid fa-clipboard-list"></i> FRC Event Registration Entries</span>
+                                <span class="alloc-val">$6,000</span>
+                            </li>
+                            <li>
+                                <span class="alloc-name"><i class="fa-solid fa-plane-departure"></i> Tournament Transit & Lodging</span>
+                                <span class="alloc-val">$10,000</span>
+                            </li>
+                            <li>
+                                <span class="alloc-name"><i class="fa-solid fa-campground"></i> Community Outreach & STEM Camps</span>
+                                <span class="alloc-val">$3,500</span>
+                            </li>
+                            <li>
+                                <span class="alloc-name"><i class="fa-solid fa-wrench"></i> Machine Safety & Workshop Upkeep</span>
+                                <span class="alloc-val">$2,000</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Call to action block -->
+                <div class="card glass-card text-center relative-card py-5">
+                    <div class="card-glow green-glow"></div>
+                    <h3 class="section-title text-green"><i class="fa-solid fa-hand-holding-dollar"></i> Become a Valued Contributor</h3>
+                    <p class="paragraph max-width-p">Whether you are an individual supporter or representing an engineering company, your contributions directly empower high school students to explore industrial STEM career pathways.</p>
+                    <div class="flex-buttons-centered">
+                        <a href="https://www.paypal.com" target="_blank" class="btn btn-primary"><i class="fa-solid fa-circle-dollar-to-slot"></i> Donate Online Now</a>
+                        <a href="mailto:sponsor@venturieffect9999.org" class="btn btn-secondary"><i class="fa-solid fa-file-invoice-dollar"></i> Request Corporate Sponsorship Kit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. BOOSTERS CLUB VIEW -->
+        <section class="page-view" id="view-boosters">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">Venturi Effect</span> <span class="neon-green">Boosters</span></h1>
+                    <p class="subtitle">The parent and community coalition fueling our logistics and operations</p>
+                </div>
+
+                <div class="card glass-card mb-5 relative-card">
+                    <div class="card-glow purple-glow"></div>
+                    <h3 class="section-title text-purple"><i class="fa-solid fa-heart"></i> Who We Are</h3>
+                    <p class="paragraph">
+                        The Venturi Effect Booster Club is a non-profit organization made up of parents, guardians, alumni, and local supporters dedicated to assisting FRC Team 9999. 
+                        While the mentors coordinate technical concepts and the students construct the robot, the Boosters coordinate the vital operations that keep our gears turning:
+                    </p>
+                    
+                    <div class="two-column-grid mt-4">
+                        <div class="booster-feature">
+                            <h5><i class="fa-solid fa-utensils text-green"></i> Pit Catering & Nutrition</h5>
+                            <p>Coordination of nutritional lunch boxes and healthy snacks to keep the students fully energized during long build sessions and high-stakes district events.</p>
+                        </div>
+                        <div class="booster-feature">
+                            <h5><i class="fa-solid fa-bus text-purple"></i> Event Travel & Lodging</h5>
+                            <p>Assisting faculty with the logistics of transporting 40 students, tool cabinets, and robot containers safely to local and international competitions.</p>
+                        </div>
+                        <div class="booster-feature">
+                            <h5><i class="fa-solid fa-shirt text-green"></i> Merchandise & Brand</h5>
+                            <p>Sourcing quality team apparel, banners, badges, and promotional items for students and parent blocks in the tournament stands.</p>
+                        </div>
+                        <div class="booster-feature">
+                            <h5><i class="fa-solid fa-calendar-days text-purple"></i> End of Season Celebrations</h5>
+                            <p>Planning and organizing our celebrated annual team banquets, awarding achievements, and honoring our graduating student seniors.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Meeting information card -->
+                <div class="card glass-card relative-card">
+                    <div class="card-glow green-glow"></div>
+                    <h3 class="section-title text-green"><i class="fa-solid fa-circle-question"></i> Get Involved in the Pack</h3>
+                    <p class="paragraph">All parents are automatically welcomed into the Booster Club! We meet on the **first Tuesday of every month** in the North Creek High School Physics Room at **7:00 PM**.</p>
+                    <div class="flex-buttons-centered">
+                        <a href="mailto:boosters@venturieffect9999.org" class="btn btn-primary"><i class="fa-solid fa-envelope-open-text"></i> Email Booster Officers</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. SPONSORS VIEW -->
+        <section class="page-view" id="view-sponsors">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">Our Valued</span> <span class="neon-green">Sponsors</span></h1>
+                    <p class="subtitle">Empowering tech-pioneers through community and corporate alliance</p>
+                </div>
+
+                <!-- Corporate Tiers Grid -->
+                <div class="sponsors-tiers-container">
+                    
+                    <!-- Platinum Tier -->
+                    <div class="tier-section platinum-tier-box">
+                        <h2 class="tier-title platinum-glow-text"><i class="fa-solid fa-gem text-purple"></i> PLATINUM TIER ($5,000+)</h2>
+                        <div class="sponsors-grid text-center">
+                            <div class="sponsor-logo-card">
+                                <div class="mock-logo" style="color: var(--text-muted); font-size: 0.95rem;">None yet — <a href="mailto:sponsor@venturieffect9999.org">apply to become one</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gold Tier -->
+                    <div class="tier-section gold-tier-box">
+                        <h2 class="tier-title gold-glow-text"><i class="fa-solid fa-medal text-green"></i> GOLD TIER ($2,500+)</h2>
+                        <div class="sponsors-grid">
+                            <div class="sponsor-logo-card">
+                                <div class="mock-logo" style="color: var(--text-muted); font-size: 0.95rem;">None yet — <a href="mailto:sponsor@venturieffect9999.org">apply to become one</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Silver Tier -->
+                    <div class="tier-section silver-tier-box">
+                        <h2 class="tier-title silver-glow-text"><i class="fa-solid fa-medal text-purple"></i> SILVER TIER ($1,000+)</h2>
+                        <div class="sponsors-grid">
+                            <div class="sponsor-logo-card">
+                                <div class="mock-logo" style="color: var(--text-muted); font-size: 0.95rem;">None yet — <a href="mailto:sponsor@venturieffect9999.org">apply to become one</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bronze Tier -->
+                    <div class="tier-section bronze-tier-box">
+                        <h2 class="tier-title bronze-glow-text"><i class="fa-solid fa-award text-slate-800"></i> BRONZE TIER (Up to $500)</h2>
+                        <div class="sponsors-grid">
+                            <div class="sponsor-logo-card">
+                                <div class="mock-logo" style="color: var(--text-muted); font-size: 0.95rem;">None yet — <a href="mailto:sponsor@venturieffect9999.org">apply to become one</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. ABOUT FIRST VIEW -->
+        <section class="page-view" id="view-first">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">About</span> <span class="neon-green">FIRST®</span></h1>
+                    <p class="subtitle">For Inspiration and Recognition of Science and Technology</p>
+                </div>
+
+                <div class="card glass-card mb-5 relative-card">
+                    <div class="card-glow green-glow"></div>
+                    <h3 class="section-title text-green"><i class="fa-solid fa-graduation-cap"></i> The Ultimate Sport for the Mind</h3>
+                    <p class="paragraph">
+                        **FIRST®** (For Inspiration and Recognition of Science and Technology) is a global robotics community that prepares young people for the future through a suite of inclusive, team-based robotics programs for schools and communities.
+                    </p>
+                    <p class="paragraph">
+                        Under strict rules and limited resources, teams of high school students are challenged to raise funds, design a team "brand," hone teamwork skills, and build and program industrial-size robots to play a difficult field game against like-minded competitors. 
+                        It’s as close to real-world engineering as a student can get.
+                    </p>
+                </div>
+
+                <div class="two-column-grid">
+                    <div class="card glass-card relative-card">
+                        <div class="card-glow purple-glow"></div>
+                        <h4 class="card-title text-purple"><i class="fa-solid fa-handshake-angle"></i> Gracious Professionalism®</h4>
+                        <p>
+                            A way of doing things that encourages high-quality work, emphasizes the value of others, and respects individuals and the community. 
+                            Through Gracious Professionalism, fierce competition and mutual gain can coexist. We compete hard on the field, but actively help other teams repair their robots in the pits.
+                        </p>
+                    </div>
+                    <div class="card glass-card relative-card">
+                        <div class="card-glow green-glow"></div>
+                        <h4 class="card-title text-green"><i class="fa-solid fa-arrows-spin"></i> Coopertition®</h4>
+                        <p>
+                            Coopertition® produces innovation by promoting collaboration and respect in the face of intense competition. 
+                            It means assisting and enabling teammates, competitors, and opponents, even as you strive to win. It teaches that helping others is a core component of outstanding engineering.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. RESOURCES VIEW -->
+        <section class="page-view" id="view-resources">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">Team</span> <span class="neon-green">Resources</span></h1>
+                    <p class="subtitle">Reference materials and documentation for students, mentors, and parents</p>
+                </div>
+
+                <div class="card glass-card mb-4 relative-card">
+                    <div class="card-glow green-glow"></div>
+                    <div class="search-bar-box">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="resource-search" placeholder="Search resources (e.g. CAD, handbook, Delphi)..." class="search-input">
+                        <button class="filter-btn active-filter" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="internal">Internal Docs</button>
+                        <button class="filter-btn" data-filter="external">External Links</button>
+                    </div>
+                </div>
+
+                <div class="resources-grid" id="resources-grid-container">
+                    <!-- Injected dynamically by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. CALENDAR VIEW -->
+        <section class="page-view" id="view-calendar">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">Upcoming</span> <span class="neon-green">Calendar</span></h1>
+                    <p class="subtitle">Track our team schedule, build sessions, and outreach events</p>
+                </div>
+
+                <div class="card glass-card relative-card calendar-outer-card">
+                    <div class="card-glow purple-glow"></div>
+                    <div class="calendar-header-row">
+                        <h3 class="section-title text-purple"><i class="fa-solid fa-calendar-days"></i> Team Schedule</h3>
+                        <div class="calendar-filters">
+                            <button class="calendar-filter-btn active-cal-filter" data-cal-filter="all">All Events</button>
+                            <button class="calendar-filter-btn" data-cal-filter="build">Build Sessions</button>
+                            <button class="calendar-filter-btn" data-cal-filter="outreach">Outreach</button>
+                            <button class="calendar-filter-btn" data-cal-filter="competition">Competitions</button>
+                        </div>
+                    </div>
+
+                    <!-- Custom Agenda List Widget -->
+                    <div class="agenda-list" id="calendar-agenda-container">
+                        <!-- Injected by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. BLOG VIEW -->
+        <section class="page-view" id="view-blog">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="page-title"><span class="neon-purple">Venturi</span> <span class="neon-green">Blog</span></h1>
+                    <p class="subtitle">Stories from our design board, build seasons, and regional events</p>
+                </div>
+
+                <div class="blog-grid" id="blog-grid-container">
+                    <!-- Injected dynamically by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="cyber-footer">
+        <div class="footer-container">
+            <p>All Rights Reserved &copy; 2026 FRC Team 9999: Venturi Effect</p>
+            <p>Designed for excellence in STEM and competitive sportsmanship.</p>
+            <div class="footer-contact-details">
+                <p class="contact-team-title">FRC Team 9999: Venturi Effect</p>
+                <p><i class="fa-solid fa-location-dot"></i> North Creek High School &bull; 3613 191st Pl SE, Bothell, WA 98012</p>
+                <p><i class="fa-solid fa-phone"></i> (425) 408-8800 &nbsp;&nbsp; <i class="fa-solid fa-envelope"></i> <a href="mailto:info@venturieffect9999.org" class="email-link">info@venturieffect9999.org</a></p>
+            </div>
+            <div class="social-icons-row" style="justify-content: center;">
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://youtube.com" target="_blank" aria-label="YouTube" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <button class="contact-trigger-btn" id="footer-contact-trigger">
+                <i class="fa-solid fa-envelope"></i> Send us a message
+            </button>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE POPUP MODALS -->
+
+    <!-- Contact Form Modal -->
+    <div class="modal-overlay" id="contact-modal">
+        <div class="modal-card glass-modal relative-card">
+            <div class="card-glow green-glow"></div>
+            <button class="modal-close-btn" id="contact-close-btn" aria-label="Close Modal">&times;</button>
+            <h3 class="modal-title"><i class="fa-solid fa-paper-plane text-green"></i> Send a Message</h3>
+            <p class="modal-desc">Interested in joining Venturi Effect, sponsoring us, or learning more? Shoot us a message!</p>
+            
+            <form id="contact-form" class="modal-form">
+                <div class="form-group">
+                    <label for="form-name">Full Name</label>
+                    <input type="text" id="form-name" class="form-input" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="form-email">Email Address</label>
+                    <input type="email" id="form-email" class="form-input" required placeholder="johndoe@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="form-subject">Subject</label>
+                    <select id="form-subject" class="form-input">
+                        <option value="general">General Inquiry</option>
+                        <option value="sponsorship">Sponsorship / Funding</option>
+                        <option value="joining">Joining the Team (Students)</option>
+                        <option value="mentoring">Mentoring Opportunities</option>
+                        <option value="boosters">Booster Club</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="form-message">Your Message</label>
+                    <textarea id="form-message" class="form-input form-textarea" required placeholder="Hey Venturi Effect..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-circle-check"></i> Launch Message</button>
+            </form>
+
+            <!-- Success State Injected dynamically -->
+            <div class="form-success-state" id="form-success-state" style="display: none;">
+                <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+                <h4>Message Launched!</h4>
+                <p>Transmission received, Venturi Effect. One of our student directors or mentors will connect with you soon.</p>
+                <button class="btn btn-secondary mt-3" id="success-close-btn">Close Panel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Detail Reader Modal -->
+    <div class="modal-overlay" id="blog-reader-modal">
+        <div class="modal-card glass-modal relative-card wide-modal">
+            <div class="card-glow purple-glow"></div>
+            <button class="modal-close-btn" id="blog-close-btn" aria-label="Close Modal">&times;</button>
+            
+            <div class="modal-scroll-content" id="blog-detail-content">
+                <!-- Injected dynamically by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Application Controller JS -->
+    <script src="app.js"></script>
+</body>
+</html>
